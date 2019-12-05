@@ -92,5 +92,4 @@ void ControlMotor::parar(){
   digitalWrite(motorIzquierdoB,LOW);
   analogWrite(pwmDerecho, 250);
   analogWrite(pwmIzquierdo, 250);
-
 }
